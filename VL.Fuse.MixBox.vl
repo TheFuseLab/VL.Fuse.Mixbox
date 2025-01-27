@@ -14,7 +14,17 @@
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
       <Patch Id="D3xHuzqGWDeMjtoIpdhLam">
-        <Canvas Id="HoFGaKtyOz0PAgWhduDJmE" CanvasType="Group" />
+        <Canvas Id="HoFGaKtyOz0PAgWhduDJmE" CanvasType="Group">
+          <Pad Id="EiAcmfLxdMlM1NjQtXApAa" Bounds="57,45,404,75" ShowValueBox="true" isIOBox="true" Value="VL.Fuse.Mixbox  ">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">36</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
         <Patch Id="QFMoAffJb6IMCalh4iU8yA" Name="Create" />
         <Patch Id="F0eLCSxAkYaMqgsrSQe8s7" Name="Update" />
         <ProcessDefinition Id="Nevba693zTGOS8YMuf6Hcd">
