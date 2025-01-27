@@ -2,6 +2,8 @@
 Fuse Implementation of Mixbox library
 https://github.com/scrtwpns/mixbox
 
+Be aware to use this package commercially you need a paid license from secret weapons.
+
 ## Mixbox: Pigment-Based Color Mixing
 <p align="center">
   <img src="https://scrtwpns.com/mixbox/teaser.jpg"/>
