@@ -1,5 +1,5 @@
 # VL.Fuse.Mixbox
-Fuse Implementation of Mixbox library  Source: https://github.com/scrtwpns/mixbox  Website: https://scrtwpns.com/mixbox/
+Fuse Implementation of Mixbox library</br>Source: https://github.com/scrtwpns/mixbox  Website: https://scrtwpns.com/mixbox/
 
 Be aware to use this package commercially you need a paid license from secret weapons.
 
