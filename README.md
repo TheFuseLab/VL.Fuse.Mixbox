@@ -1,8 +1,12 @@
 # VL.Fuse.MixBox
 Fuse Implementation of Mixbox library
-
-## Mixbox project
 https://github.com/scrtwpns/mixbox
+
+## Mixbox: Pigment-Based Color Mixing
+<p align="center">
+  <img src="https://scrtwpns.com/mixbox/teaser.jpg"/>
+</p>
+
 
 ## License
 Copyright (c) 2022, Secret Weapons. All rights reserved.<br>
