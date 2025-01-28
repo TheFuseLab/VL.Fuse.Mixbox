@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VL.Fuse.Mixbox</id>
+    <version>0.0.0</version>
+    <authors>The Fuse Lab</authors>
+    <owners>The Fuse Lab</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">CC-BY-NC-4.0</license>
+    <projectUrl>https://github.com/TheFuseLab/VL.Fuse.Mixbox</projectUrl>
+    <repository type="git" url="https://github.com/TheFuseLab/VL.Fuse.Mixbox.git" />
+    <description> Fuse Implementation of Mixbox library </description>
+    <tags>VL, fuse, gpu, mixbox, color</tags>
+    <readme>docs\README.md</readme>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\shaders\*.sdsl" target="\vl\shaders" exclude="" />
+    <file src="..\help\**\*.vl" target="\help" exclude="" />
+    <file src="..\Assets\**\*.*" target="\Assets" exclude="" />
+    <file src="..\README.md" target="docs\" />
+  </files>
+</package>
