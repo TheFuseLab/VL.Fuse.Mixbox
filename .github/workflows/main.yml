@@ -23,6 +23,6 @@ jobs:
     - name: Publish VL Nuget
       uses: vvvv/PublishVLNuget@1.0.43
       with:
-        nuspec: deployment/VL.Fuse.MixBox.nuspec
+        nuspec: deployment/VL.Fuse.Mixbox.nuspec
         version: ${{ github.event.inputs.version }}
         nuget-key: ${{ secrets.NUGET_KEY }}
