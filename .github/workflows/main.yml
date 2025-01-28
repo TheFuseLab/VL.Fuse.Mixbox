@@ -1,0 +1,28 @@
+name: push_nuget
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'The version to push'
+        required: false
+        default: 'X.X.X'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Git Checkout
+      uses: actions/checkout@v4
+      with:
+        lfs: 'true'
+  
+    - name: Setup Nuget.exe
+      uses: nuget/setup-nuget@v1
+
+    - name: Publish VL Nuget
+      uses: vvvv/PublishVLNuget@1.0.43
+      with:
+        nuspec: deployment/VL.Fuse.MixBox.nuspec
+        version: ${{ github.event.inputs.version }}
+        nuget-key: ${{ secrets.NUGET_KEY }}
